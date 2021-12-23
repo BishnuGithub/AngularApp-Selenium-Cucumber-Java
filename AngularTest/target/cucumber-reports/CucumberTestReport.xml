@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="62.678">
+<testcase classname="Bank Manager features" name="Bank manager Login and exit" time="36.798">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User clicks on Bank manager Login......................................passed
+Then User lands on bank manager Page with Add Customer , Open Account , Customers buttons available.passed
+When User clicks on home and will land on Home Page.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="User login as Customer" name="Customer Login and Logout" time="14.287">
+<system-out><![CDATA[Given User is on home Page..................................................passed
+When User clicks on Customer Login..........................................passed
+Then User Selects "Hermoine Granger" and clicks Login.......................passed
+Then It will "Hermoine Granger" User Name and Account Details...............passed
+When User clicks Logout.....................................................passed
+Then It will go back to user select page....................................passed
+Then User clicks on home and land on Home Page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User login as Customer" name="Customer Login and Logout 2" time="10.362">
+<system-out><![CDATA[Given User is on home Page..................................................passed
+When User clicks on Customer Login..........................................passed
+Then User Selects "Harry Potter" and clicks Login...........................passed
+Then It will "Harry Potter" User Name and Account Details...................passed
+When User clicks Logout.....................................................passed
+Then It will go back to user select page....................................passed
+Then User clicks on home and land on Home Page..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
